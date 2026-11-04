@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-pr-guard",
+  "description": "Agent PR Guard: a deterministic, warn-only check that flags when an agent weakens the tests, gates or config that judge its work.",
+  "owner": {
+    "name": "Andy Tuttle"
+  },
+  "plugins": [
+    {
+      "name": "agent-pr-guard",
+      "description": "Warns when the agent's changes weaken the tests, gates or config that judge its work, when it stops. Warn-only by default; set AGENT_PR_GUARD_BLOCK=1 to make the Stop hook ask the agent to undo them.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Andy Tuttle"
+      },
+      "source": "./plugin",
+      "category": "development",
+      "homepage": "https://github.com/AndyTuttle12/agent-pr-guard",
+      "license": "Apache-2.0",
+      "tags": ["testing", "code-review", "guardrails", "agents"]
+    }
+  ]
+}
