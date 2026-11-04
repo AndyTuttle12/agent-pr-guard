@@ -1,0 +1,21 @@
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets: never commit them; document variables in .env.example
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Node / TypeScript
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.npm/
