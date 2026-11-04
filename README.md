@@ -162,8 +162,18 @@ it flagged in the fresh sample, or more, was not a real weakening.
 
 ## Claude Code plugin
 
-`plugin/` is a Claude Code plugin that runs the same check while an agent works. It is not in a
-marketplace; load it from a clone for a session:
+`plugin/` is a Claude Code plugin that runs the same check while an agent works.
+
+### Install as a Claude Code plugin
+
+This repo is its own plugin marketplace. In Claude Code:
+
+```text
+/plugin marketplace add AndyTuttle12/agent-pr-guard
+/plugin install agent-pr-guard@agent-pr-guard
+```
+
+To try it for one session without installing, load it from a clone:
 
 ```sh
 claude --plugin-dir path/to/agent-pr-guard/plugin
