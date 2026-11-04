@@ -1,0 +1,7 @@
+{
+  "description": "With no config, the GitLab and Gitea CODEOWNERS locations are protected too: .gitlab/CODEOWNERS loses an owner and .gitea/CODEOWNERS is added.",
+  "findings": [
+    { "ruleId": "protected/path", "file": ".gitlab/CODEOWNERS", "line": null, "severity": "error" },
+    { "ruleId": "protected/path", "file": ".gitea/CODEOWNERS", "line": null, "severity": "error" }
+  ]
+}

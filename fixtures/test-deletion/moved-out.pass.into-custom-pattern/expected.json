@@ -1,0 +1,5 @@
+{
+  "description": "A test moves into a directory the repo declares as tests in its own testPatterns.",
+  "renames": { "src/login.test.ts": "e2e/login.e2e.ts" },
+  "findings": []
+}

@@ -1,0 +1,15 @@
+{
+  "description": "one pytest test commented out with #, another wrapped in a triple-quoted string",
+  "findings": [
+    {
+      "ruleId": "skip/commented-out",
+      "file": "tests/test_cache.py",
+      "line": 8
+    },
+    {
+      "ruleId": "skip/commented-out",
+      "file": "tests/test_cache.py",
+      "line": 13
+    }
+  ]
+}

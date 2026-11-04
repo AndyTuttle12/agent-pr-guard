@@ -1,0 +1,4 @@
+{
+  "description": "A test file becomes binary.",
+  "findings": [{ "ruleId": "engine/uninspected", "file": "src/a.test.ts" }]
+}

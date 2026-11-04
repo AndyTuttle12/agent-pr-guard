@@ -1,0 +1,10 @@
+{
+  "name": "agent-pr-guard",
+  "version": "0.1.0",
+  "description": "Warns when the agent's changes weaken the tests, gates or config that judge its work, when it stops. Warn-only by default; set AGENT_PR_GUARD_BLOCK=1 to make the Stop hook ask the agent to undo them.",
+  "author": {
+    "name": "Andy Tuttle"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["testing", "code-review", "guardrails", "agents"]
+}

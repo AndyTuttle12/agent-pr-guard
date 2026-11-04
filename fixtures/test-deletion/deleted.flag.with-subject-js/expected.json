@@ -1,0 +1,4 @@
+{
+  "description": "A retired module is deleted together with its test file; reported as a warning, since the guard cannot tell a retired feature from a test removed to get green.",
+  "findings": [{ "ruleId": "test-deletion/deleted", "file": "src/math.test.ts", "line": null, "severity": "warning" }]
+}

@@ -1,0 +1,10 @@
+{
+  "description": "a Go test wrapped in a block comment",
+  "findings": [
+    {
+      "ruleId": "skip/commented-out",
+      "file": "mathx/mathx_test.go",
+      "line": 12
+    }
+  ]
+}

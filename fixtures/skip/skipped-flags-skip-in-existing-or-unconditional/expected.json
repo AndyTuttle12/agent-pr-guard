@@ -1,0 +1,10 @@
+{
+  "description": "skips that still weaken: an unconditional skip and an except-block fallback added to existing tests, a skip that turns an existing tenancy check's failure into a skip, and new tests skipped unconditionally or by skipif(True)",
+  "findings": [
+    { "ruleId": "skip/skipped", "file": "src/tenancy.test.ts", "line": 7 },
+    { "ruleId": "skip/skipped", "file": "tests/test_orders.py", "line": 7 },
+    { "ruleId": "skip/skipped", "file": "tests/test_orders.py", "line": 15 },
+    { "ruleId": "skip/skipped", "file": "tests/test_orders.py", "line": 20 },
+    { "ruleId": "skip/skipped", "file": "tests/test_orders.py", "line": 24 }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "description": "toEqual becomes toBeDefined, toStrictEqual becomes toBeTruthy, toThrow(Error) loses its argument",
+  "findings": [
+    { "ruleId": "assertion/loosened", "file": "src/order.test.ts", "line": 7 },
+    { "ruleId": "assertion/loosened", "file": "src/order.test.ts", "line": 8 },
+    { "ruleId": "assertion/loosened", "file": "src/order.test.ts", "line": 12 }
+  ]
+}

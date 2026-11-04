@@ -1,0 +1,25 @@
+{
+  "description": "it.only and fdescribe in an existing file, test.only in a new file, and a Ginkgo FIt",
+  "findings": [
+    {
+      "ruleId": "skip/focused",
+      "file": "src/auth.test.ts",
+      "line": 4
+    },
+    {
+      "ruleId": "skip/focused",
+      "file": "src/auth.test.ts",
+      "line": 12
+    },
+    {
+      "ruleId": "skip/focused",
+      "file": "src/session.test.ts",
+      "line": 3
+    },
+    {
+      "ruleId": "skip/focused",
+      "file": "api/api_test.go",
+      "line": 9
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "a Vitest expect line is deleted from a test",
+  "findings": [{ "ruleId": "assertion/removed", "file": "src/cart.test.ts", "line": 9 }]
+}

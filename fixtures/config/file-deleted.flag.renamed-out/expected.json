@@ -1,0 +1,13 @@
+{
+  "description": "jest.config.js is renamed to jest.config.js.disabled, a name Jest never reads, so its coverage floor is gone.",
+  "findings": [
+    {
+      "ruleId": "config/file-deleted",
+      "file": "jest.config.js.disabled",
+      "line": null
+    }
+  ],
+  "renames": {
+    "jest.config.js": "jest.config.js.disabled"
+  }
+}

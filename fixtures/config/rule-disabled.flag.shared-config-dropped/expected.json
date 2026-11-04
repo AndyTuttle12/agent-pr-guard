@@ -1,0 +1,4 @@
+{
+  "description": "A flat config spreads its shared config and drops the strict one from the list: spreading is the same item, dropping is a disabled rule set.",
+  "findings": [{ "ruleId": "config/rule-disabled", "file": "eslint.config.js", "line": 5 }]
+}

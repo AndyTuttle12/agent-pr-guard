@@ -1,0 +1,4 @@
+{
+  "description": "Honest edits: a blanket noqa narrowed to E501, @ts-ignore swapped for @ts-expect-error, a line edited that keeps its eslint-disable-line, a helper moved to another file with its disable, and directives only mentioned in a docstring, a string, a JSDoc comment or a README.",
+  "findings": []
+}

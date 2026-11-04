@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:node": "node --test"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.0"
+  }
+}

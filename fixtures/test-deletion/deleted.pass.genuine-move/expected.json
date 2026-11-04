@@ -1,0 +1,5 @@
+{
+  "description": "A test file moves to another directory and stays collected; git sees a rename.",
+  "renames": { "src/math.test.ts": "src/utils/math.test.ts" },
+  "findings": []
+}

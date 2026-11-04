@@ -1,0 +1,4 @@
+{
+  "description": "A deleted helper script only printed test, lint and type-check commands as documentation (echo, printf and a heredoc fed to cat); it ran none of them, so no gate is removed.",
+  "findings": []
+}

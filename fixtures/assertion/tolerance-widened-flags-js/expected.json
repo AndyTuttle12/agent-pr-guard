@@ -1,0 +1,7 @@
+{
+  "description": "a shared EPSILON grows from 1e-9 to 1e-3 and toBeCloseTo drops from 10 digits to 2",
+  "findings": [
+    { "ruleId": "assertion/tolerance-widened", "file": "src/geometry.test.ts", "line": 4 },
+    { "ruleId": "assertion/tolerance-widened", "file": "src/geometry.test.ts", "line": 7 }
+  ]
+}

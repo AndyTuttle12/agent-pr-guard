@@ -1,0 +1,2 @@
+unit:
+	pytest -q

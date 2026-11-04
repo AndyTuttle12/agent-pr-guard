@@ -1,0 +1,18 @@
+{
+  "description": "agent-pr-guard: check the branch and its uncommitted changes when the agent stops; warn-only unless AGENT_PR_GUARD_BLOCK=1",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/guard.mjs", "stop"],
+            "timeout": 30,
+            "statusMessage": "agent-pr-guard: checking the branch"
+          }
+        ]
+      }
+    ]
+  }
+}

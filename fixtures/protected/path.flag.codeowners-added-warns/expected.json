@@ -1,0 +1,4 @@
+{
+  "description": "A repo with no CODEOWNERS anywhere: the PR adds .github/CODEOWNERS. Adding review protection weakens nothing, so it is a warning and the PR passes (D18).",
+  "findings": [{ "ruleId": "protected/path", "file": ".github/CODEOWNERS", "line": null, "severity": "warning" }]
+}

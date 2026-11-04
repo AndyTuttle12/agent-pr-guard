@@ -1,0 +1,10 @@
+{
+  "description": "Failures are swallowed four ways: GitLab allow_failure on the pytest job, a Makefile '-' prefix on mypy, '|| true' on eslint in package.json and on tsc in a shell script. The test script's own runner is not a recognised gate, so '|| exit 0' on it is a warning.",
+  "findings": [
+    { "ruleId": "config/gate-softened", "file": ".gitlab-ci.yml", "line": 9, "severity": "error" },
+    { "ruleId": "config/gate-softened", "file": "Makefile", "line": 3, "severity": "error" },
+    { "ruleId": "config/gate-softened", "file": "package.json", "line": 4, "severity": "error" },
+    { "ruleId": "config/gate-softened", "file": "package.json", "line": 5, "severity": "warning" },
+    { "ruleId": "config/gate-softened", "file": "scripts/verify.sh", "line": 3, "severity": "error" }
+  ]
+}

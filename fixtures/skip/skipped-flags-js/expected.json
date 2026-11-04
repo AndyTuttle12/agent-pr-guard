@@ -1,0 +1,25 @@
+{
+  "description": "it.skip, xit, describe.skip and test.skipIf added to tests that ran before",
+  "findings": [
+    {
+      "ruleId": "skip/skipped",
+      "file": "src/cart.test.ts",
+      "line": 5
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "src/cart.test.ts",
+      "line": 9
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "src/cart.test.ts",
+      "line": 13
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "src/cart.test.ts",
+      "line": 18
+    }
+  ]
+}

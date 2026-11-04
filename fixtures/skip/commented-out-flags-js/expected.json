@@ -1,0 +1,10 @@
+{
+  "description": "a Vitest test commented out line by line with //",
+  "findings": [
+    {
+      "ruleId": "skip/commented-out",
+      "file": "src/queue.test.ts",
+      "line": 8
+    }
+  ]
+}

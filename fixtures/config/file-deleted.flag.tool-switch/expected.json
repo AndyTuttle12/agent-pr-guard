@@ -1,0 +1,11 @@
+{
+  "description": ".flake8 is deleted and ruff.toml is added: probably a switch from flake8 to ruff, so a warning, since the new config may check less.",
+  "findings": [
+    {
+      "ruleId": "config/file-deleted",
+      "file": ".flake8",
+      "line": null,
+      "severity": "warning"
+    }
+  ]
+}

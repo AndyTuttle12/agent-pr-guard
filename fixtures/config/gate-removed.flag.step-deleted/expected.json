@@ -1,0 +1,10 @@
+{
+  "description": "The type-check step is deleted from the only workflow, so nothing type-checks the PR any more.",
+  "findings": [
+    {
+      "ruleId": "config/gate-removed",
+      "file": ".github/workflows/ci.yml",
+      "line": 17
+    }
+  ]
+}

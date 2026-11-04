@@ -1,0 +1,4 @@
+{
+  "description": "Jest swapped for Vitest, ESLint for Biome, pytest for python -m pytest, the Makefile recipe moved into a shell script the workflow runs, and a GitLab job inlines the make target it called: every kind keeps its count.",
+  "findings": []
+}

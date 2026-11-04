@@ -1,0 +1,4 @@
+{
+  "description": "a skipped test moved within its file, a Go skip under testing.Short(), skip words in comments, a Prisma skip: 10 option, and a new test file with a skipped test",
+  "findings": []
+}

@@ -1,0 +1,4 @@
+{
+  "description": "The base has a root CODEOWNERS, left untouched; the PR adds .github/CODEOWNERS, which GitHub reads first, so the addition replaces the owners and stays an error.",
+  "findings": [{ "ruleId": "protected/path", "file": ".github/CODEOWNERS", "line": null, "severity": "error" }]
+}

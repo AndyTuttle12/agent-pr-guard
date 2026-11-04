@@ -1,0 +1,4 @@
+{
+  "description": "Rules go from warn to error, strict flags are added, select grows, extends moves to the type-checked variant, an ignore list moves from setup.cfg to .flake8, and a narrower code replaces a broad one.",
+  "findings": []
+}

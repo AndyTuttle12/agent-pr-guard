@@ -1,0 +1,6 @@
+stages: [test]
+
+lint:
+  stage: test
+  script:
+    - make lint

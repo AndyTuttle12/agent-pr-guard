@@ -1,0 +1,7 @@
+{
+  "description": "three toBe calls on fields fold into one toEqual on the object, and two testify Equal calls into one on the struct: reported as warnings, not errors",
+  "findings": [
+    { "ruleId": "assertion/removed", "file": "src/profile.test.ts", "line": 6, "severity": "warning" },
+    { "ruleId": "assertion/removed", "file": "store/store_test.go", "line": 11, "severity": "warning" }
+  ]
+}

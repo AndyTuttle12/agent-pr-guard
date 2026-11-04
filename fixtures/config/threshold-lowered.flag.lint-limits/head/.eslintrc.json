@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "max-len": ["error", { "code": 160 }],
+    "complexity": [2, 25]
+  }
+}

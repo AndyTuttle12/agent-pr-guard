@@ -1,0 +1,11 @@
+{
+  "description": "With the rule raised to error in the guard config (it warns by default, D15), an agent silences the checks instead of fixing the code: a bare @ts-ignore, a blanket noqa that replaced a narrow one, and an @ts-nocheck are errors; a disable with a reason is a warning.",
+  "findings": [
+    { "ruleId": "config/inline-suppression", "file": "app/views.py", "line": 5, "severity": "error" },
+    { "ruleId": "config/inline-suppression", "file": "app/views.py", "line": 9, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "cmd/main.go", "line": 10, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "src/api.ts", "line": 5, "severity": "error" },
+    { "ruleId": "config/inline-suppression", "file": "src/api.ts", "line": 10, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "src/legacy.ts", "line": 1, "severity": "error" }
+  ]
+}

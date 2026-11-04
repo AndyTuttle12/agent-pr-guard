@@ -1,0 +1,20 @@
+{
+  "description": "A failing module is excluded from type-checking and linting, and a slow test file from the Makefile pytest run.",
+  "findings": [
+    {
+      "ruleId": "config/ignore-grown",
+      "file": "tsconfig.json",
+      "line": 3
+    },
+    {
+      "ruleId": "config/ignore-grown",
+      "file": ".eslintignore",
+      "line": 2
+    },
+    {
+      "ruleId": "config/ignore-grown",
+      "file": "Makefile",
+      "line": 2
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "weak checks replaced one for one by exact ones in JS, Python and Go (t.Logf becomes t.Errorf)",
+  "findings": []
+}

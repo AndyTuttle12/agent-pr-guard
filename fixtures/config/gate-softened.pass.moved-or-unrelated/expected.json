@@ -1,0 +1,4 @@
+{
+  "description": "An already-advisory webkit step moves to a nightly workflow unchanged, a step is inserted so the rest renumber, a turned-off lint step is turned back on, '|| true' guards a cleanup command, an artifact upload may fail, and workflow_dispatch is added as a trigger.",
+  "findings": []
+}

@@ -1,0 +1,23 @@
+{
+  "description": "tsconfig strict removed and skipLibCheck turned on; a mypy section ignores errors; pyright typeCheckingMode lowered.",
+  "findings": [
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "tsconfig.json"
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "tsconfig.json"
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "mypy.ini",
+      "line": 5
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "pyrightconfig.json",
+      "line": 2
+    }
+  ]
+}

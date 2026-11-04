@@ -1,0 +1,4 @@
+{
+  "description": "a node:assert call is commented out, which counts as removed",
+  "findings": [{ "ruleId": "assertion/removed", "file": "tests/parser.test.js", "line": 12 }]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Binary files that are neither tests nor config change; there is nothing the guard needed to read.",
+  "findings": []
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Suppressions that stay with their code: a @ts-ignore moved below another line together with the call it covers (a blank line and a comment between them), a c8 ignore next moved to the end of the file with its constant, a c8 ignore next rewritten in place along with its statement, and an eslint-disable-next-line whose line stays put while code is added around it.",
+  "findings": []
+}

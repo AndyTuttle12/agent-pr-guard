@@ -1,0 +1,4 @@
+{
+  "description": "The PR rewrites the guard config to drop a protection, ignore the tests and turn a pack off.",
+  "findings": [{ "ruleId": "protected/guard-config", "file": ".agent-pr-guard.json", "line": null, "severity": "error" }]
+}

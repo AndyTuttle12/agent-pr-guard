@@ -1,0 +1,8 @@
+{
+  "description": "A golden fixture is moved out of the protected directory (an error), and a scratch file is moved in where no baseline was, which creates a protected file like an addition would (a warning, D18).",
+  "renames": { "fixtures/golden/user.json": "fixtures/old/user.json", "scratch/order.json": "fixtures/golden/order.json" },
+  "findings": [
+    { "ruleId": "protected/path", "file": "fixtures/old/user.json", "severity": "error" },
+    { "ruleId": "protected/path", "file": "fixtures/golden/order.json", "severity": "warning" }
+  ]
+}

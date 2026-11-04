@@ -1,0 +1,6 @@
+{
+  "description": "a vitest file ported to node:assert that turns toEqual and toBe(300) into bare assert.ok calls: the file holds fewer exact checks and more weak ones",
+  "findings": [
+    { "ruleId": "assertion/loosened", "file": "src/cart.test.ts", "line": 9 }
+  ]
+}

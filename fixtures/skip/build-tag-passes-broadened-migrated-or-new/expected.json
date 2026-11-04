@@ -1,0 +1,4 @@
+{
+  "description": "a // +build line migrated to the equivalent //go:build, a constraint widened, one removed, an equivalent rewrite, and a new tagged test file",
+  "findings": []
+}

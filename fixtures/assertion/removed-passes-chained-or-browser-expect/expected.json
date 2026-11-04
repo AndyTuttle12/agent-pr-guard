@@ -1,0 +1,4 @@
+{
+  "description": "an expect moved into a polled chain (`await expect` on its own line, `.poll(` on the next) and one turned into the browser-mode expect.element: the same number of assertions",
+  "findings": []
+}

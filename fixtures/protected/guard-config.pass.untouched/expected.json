@@ -1,0 +1,4 @@
+{
+  "description": "The guard config exists and stays byte-identical while source changes.",
+  "findings": []
+}

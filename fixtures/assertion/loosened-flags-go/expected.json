@@ -1,0 +1,7 @@
+{
+  "description": "t.Errorf becomes t.Logf (reported once, as loosened, not also as removed) and assert.Equal becomes assert.NotEmpty",
+  "findings": [
+    { "ruleId": "assertion/loosened", "file": "store/store_test.go", "line": 13 },
+    { "ruleId": "assertion/loosened", "file": "store/store_test.go", "line": 20 }
+  ]
+}

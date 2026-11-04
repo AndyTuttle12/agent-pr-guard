@@ -1,0 +1,7 @@
+{
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/strict"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "error",
+    "no-console": ["error", { "allow": ["warn"] }]
+  }
+}

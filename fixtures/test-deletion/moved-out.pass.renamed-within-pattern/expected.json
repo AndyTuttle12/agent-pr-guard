@@ -1,0 +1,5 @@
+{
+  "description": "A test file is renamed from .test.ts to .spec.ts, which the runner still collects.",
+  "renames": { "src/math.test.ts": "src/math.spec.ts" },
+  "findings": []
+}

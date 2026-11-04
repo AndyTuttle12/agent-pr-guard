@@ -1,0 +1,10 @@
+{
+  "description": "Vitest replaced by node:test, but two vitest runs became one node --test run. Raised to error by the config, the drop is still a warning: every command gone ran the runner the change uninstalled.",
+  "findings": [
+    {
+      "ruleId": "config/gate-removed",
+      "file": "package.json",
+      "severity": "warning"
+    }
+  ]
+}

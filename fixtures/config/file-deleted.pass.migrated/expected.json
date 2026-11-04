@@ -1,0 +1,4 @@
+{
+  "description": "Migrations: .eslintrc.json and a package .eslintrc.json move into a root flat config, mypy.ini moves into pyproject.toml, and an ignore file is deleted (which ignores less, not more).",
+  "findings": []
+}

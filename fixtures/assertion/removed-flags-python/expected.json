@@ -1,0 +1,4 @@
+{
+  "description": "a unittest assertEqual and a pytest assert are deleted; one finding per file, at the first hunk that lost one",
+  "findings": [{ "ruleId": "assertion/removed", "file": "tests/test_calc.py", "line": 9 }]
+}

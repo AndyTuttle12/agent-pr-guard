@@ -1,0 +1,6 @@
+{
+  "description": "inside a multi-line assert only the continuation line changes, and the comparison goes: assert (total == 3) becomes assert (total)",
+  "findings": [
+    { "ruleId": "assertion/loosened", "file": "tests/test_cart.py", "line": 6 }
+  ]
+}

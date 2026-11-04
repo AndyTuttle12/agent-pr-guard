@@ -1,0 +1,7 @@
+{
+  "name": "web",
+  "scripts": {
+    "lint": "eslint . || true",
+    "test": "node ./tools/run-tests.js || exit 0"
+  }
+}

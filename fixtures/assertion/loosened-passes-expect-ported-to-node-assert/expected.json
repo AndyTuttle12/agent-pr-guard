@@ -1,0 +1,4 @@
+{
+  "description": "a vitest file ported to node:test and node:assert with as many exact checks: toBe(true) becomes assert.ok, toBeGreaterThan becomes assert.ok with a comparison, toEqual becomes a renamed deepStrictEqual import",
+  "findings": []
+}

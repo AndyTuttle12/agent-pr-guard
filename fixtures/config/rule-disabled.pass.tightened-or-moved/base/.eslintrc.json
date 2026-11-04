@@ -1,0 +1,4 @@
+{
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "rules": { "no-console": "warn" }
+}

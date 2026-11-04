@@ -1,0 +1,16 @@
+{
+  "description": "The only workflow is renamed to ci.yml.disabled, which GitHub never runs: every gate it ran is gone.",
+  "findings": [
+    {
+      "ruleId": "config/gate-removed",
+      "file": ".github/workflows/ci.yml.disabled"
+    },
+    {
+      "ruleId": "config/gate-removed",
+      "file": ".github/workflows/ci.yml.disabled"
+    }
+  ],
+  "renames": {
+    ".github/workflows/ci.yml": ".github/workflows/ci.yml.disabled"
+  }
+}
