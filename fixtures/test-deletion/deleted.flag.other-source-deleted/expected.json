@@ -1,0 +1,4 @@
+{
+  "description": "A test file is deleted alongside an unrelated source file while the code it tests stays; still an error.",
+  "findings": [{ "ruleId": "test-deletion/deleted", "file": "src/math.test.ts", "severity": "error" }]
+}

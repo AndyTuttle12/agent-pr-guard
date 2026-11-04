@@ -1,0 +1,4 @@
+{
+  "description": "The base config turns the protected pack off, ignores *.json and also lists the config under protectedPaths: the guard-config rule is locked, sees ignored files and reports once, while protected/path stays off for CODEOWNERS.",
+  "findings": [{ "ruleId": "protected/guard-config", "file": ".agent-pr-guard.json", "severity": "error" }]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "Control for the added case: the PR edits an existing .github/CODEOWNERS, which stays an error.",
+  "findings": [{ "ruleId": "protected/path", "file": ".github/CODEOWNERS", "line": null, "severity": "error" }]
+}

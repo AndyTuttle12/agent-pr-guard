@@ -1,0 +1,7 @@
+{
+  "description": "A real pytest module is deleted beside a scratch script named test_*.py: the test module still fails the PR, the script only warns.",
+  "findings": [
+    { "ruleId": "test-deletion/deleted", "file": "tests/test_series.py", "severity": "error" },
+    { "ruleId": "test-deletion/deleted", "file": "test_index.py", "severity": "warning" }
+  ]
+}

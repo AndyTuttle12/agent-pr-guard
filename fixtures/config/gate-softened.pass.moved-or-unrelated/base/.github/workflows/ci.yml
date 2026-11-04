@@ -1,0 +1,19 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: npm test
+      - name: Experimental browsers
+        run: npx playwright test --project=webkit
+        continue-on-error: true
+      - run: npx eslint .
+        if: false
+  nightly-fuzz:
+    runs-on: ubuntu-latest
+    allow_failure: true
+    steps:
+      - run: npm run fuzz

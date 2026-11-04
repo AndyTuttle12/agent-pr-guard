@@ -1,0 +1,11 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.0"
+  }
+}

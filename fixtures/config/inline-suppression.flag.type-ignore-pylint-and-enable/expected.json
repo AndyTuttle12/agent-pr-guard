@@ -1,0 +1,8 @@
+{
+  "description": "A mypy type: ignore with a code, a pylint disable on its own line that silences broad-except for the rest of the function, and an eslint-enable removed so the no-console block runs on over code that now logs: all bare suppressions; each is a warning, the rule's default (D15).",
+  "findings": [
+    { "ruleId": "config/inline-suppression", "file": "app/billing.py", "line": 7, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "app/billing.py", "line": 11, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "src/debug.ts", "line": 6, "severity": "warning" }
+  ]
+}

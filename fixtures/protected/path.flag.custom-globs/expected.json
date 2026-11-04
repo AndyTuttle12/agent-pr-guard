@@ -1,0 +1,7 @@
+{
+  "description": "The PR edits a golden fixture and deletes a snapshot baseline, both under the base config's protectedPaths.",
+  "findings": [
+    { "ruleId": "protected/path", "file": "fixtures/golden/order.json", "line": null, "severity": "error" },
+    { "ruleId": "protected/path", "file": "src/__snapshots__/view.test.ts.snap", "line": null, "severity": "error" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "lint": "eslint",
+    "test": "node --experimental-strip-types --import ./tests/setup.mjs --test \"src/**/*.test.ts\""
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "typescript": "^5"
+  }
+}

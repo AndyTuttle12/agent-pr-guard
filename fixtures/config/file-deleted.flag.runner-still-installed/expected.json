@@ -1,0 +1,11 @@
+{
+  "description": "The vitest config is deleted and a node --test script is added, but vitest is still installed and still runs: no migration, so the deleted config still warns.",
+  "findings": [
+    {
+      "ruleId": "config/file-deleted",
+      "file": "vitest.config.ts",
+      "line": null,
+      "severity": "warning"
+    }
+  ]
+}

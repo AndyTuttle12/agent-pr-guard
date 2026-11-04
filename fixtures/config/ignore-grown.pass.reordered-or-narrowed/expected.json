@@ -1,0 +1,4 @@
+{
+  "description": "Ignores are reordered, one is removed, a negation is added to an ignore file, and --ignore names lint codes rather than paths.",
+  "findings": []
+}

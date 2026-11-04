@@ -1,0 +1,4 @@
+{
+  "description": "CODEOWNERS files under a package's or a vendored library's .gitlab/ or .gitea/ directory are not ones a forge reads, and other files in the root .gitlab/ directory are not protected.",
+  "findings": []
+}

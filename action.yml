@@ -1,0 +1,37 @@
+name: agent-pr-guard
+description: Flags a pull request that weakens the tests, gates or config that judge it. Warn-only by default. Deterministic, no AI, no network beyond git fetch.
+author: Andy Tuttle
+branding:
+  icon: shield
+  color: red
+inputs:
+  base:
+    description: The commit or branch the PR targets. Defaults to the pull request's base commit.
+    required: false
+    default: ${{ github.event.pull_request.base.sha }}
+  head:
+    description: The PR's tip. Defaults to the pull request's head commit.
+    required: false
+    default: ${{ github.event.pull_request.head.sha }}
+  config:
+    description: A trusted guard config file outside the checked repository, used instead of .agent-pr-guard.json from the base commit.
+    required: false
+    default: ''
+  fail-on:
+    description: Lowest finding severity that fails the step. none (the default) only reports, error fails on error findings, warning fails on any finding.
+    required: false
+    default: none
+  path:
+    description: The repository to check, relative to the workspace. Defaults to the workspace.
+    required: false
+    default: ''
+outputs:
+  verdict:
+    description: pass, fail, or error when the check could not run.
+  errors:
+    description: Number of error findings.
+  warnings:
+    description: Number of warning findings.
+runs:
+  using: node24
+  main: action/dist/index.mjs

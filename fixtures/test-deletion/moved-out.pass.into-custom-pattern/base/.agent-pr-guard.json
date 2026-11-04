@@ -1,0 +1,1 @@
+{ "testPatterns": ["e2e/**/*.e2e.ts"] }

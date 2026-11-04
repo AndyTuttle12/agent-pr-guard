@@ -1,0 +1,20 @@
+{
+  "description": "test_x renamed to _test_x, a pytest class TestX renamed to _TestX, and Go TestX renamed to testX",
+  "findings": [
+    {
+      "ruleId": "skip/renamed-out",
+      "file": "tests/test_users.py",
+      "line": 4
+    },
+    {
+      "ruleId": "skip/renamed-out",
+      "file": "tests/test_users.py",
+      "line": 8
+    },
+    {
+      "ruleId": "skip/renamed-out",
+      "file": "users/users_test.go",
+      "line": 5
+    }
+  ]
+}

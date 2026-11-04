@@ -1,0 +1,15 @@
+{
+  "description": "t.Skip in a plain test and s.T().Skip in a testify suite method",
+  "findings": [
+    {
+      "ruleId": "skip/skipped",
+      "file": "ledger/ledger_test.go",
+      "line": 6
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "ledger/ledger_test.go",
+      "line": 13
+    }
+  ]
+}

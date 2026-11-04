@@ -1,0 +1,4 @@
+{
+  "description": "assertions moved out of one test file into a new one (JS) and into an existing one (Python); the total across the change is unchanged",
+  "findings": []
+}

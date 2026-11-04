@@ -1,0 +1,8 @@
+{
+  "description": "With no config, the built-in CODEOWNERS locations are protected: the root file is edited, .github/CODEOWNERS deleted and docs/CODEOWNERS added.",
+  "findings": [
+    { "ruleId": "protected/path", "file": "CODEOWNERS", "severity": "error" },
+    { "ruleId": "protected/path", "file": ".github/CODEOWNERS", "severity": "error" },
+    { "ruleId": "protected/path", "file": "docs/CODEOWNERS", "severity": "error" }
+  ]
+}

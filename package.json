@@ -1,0 +1,30 @@
+{
+  "name": "agent-pr-guard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agents can't grade their own homework: a deterministic, warn-only check that flags a PR when it weakens the tests, gates or config that judge it.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": {
+    "agent-pr-guard": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "node scripts/lint.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "bundle": "node scripts/bundle.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "rolldown": "~1.2.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "description": "a formatter moves the parentheses of two multi-line asserts from the message to the comparison (assert x == y, (msg) becomes assert (x == y), msg); the comparison is unchanged",
+  "findings": []
+}

@@ -1,0 +1,22 @@
+name: ci
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: rm -f coverage/lcov.info || true
+      - run: npm test
+      - run: npx eslint .
+      - uses: actions/upload-artifact@v4
+        continue-on-error: true
+        with:
+          name: coverage
+          path: coverage/

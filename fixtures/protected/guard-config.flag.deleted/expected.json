@@ -1,0 +1,4 @@
+{
+  "description": "Deleting the guard config would put the defaults in force for every later PR.",
+  "findings": [{ "ruleId": "protected/guard-config", "file": ".agent-pr-guard.json", "severity": "error" }]
+}

@@ -1,0 +1,8 @@
+{
+  "description": "A @ts-ignore in a Svelte script (read from raw lines, behind its comment marker), an eslint-disable widened to one more rule, and a new c8 ignore are all bare suppressions; each is a warning, the rule's default (D15).",
+  "findings": [
+    { "ruleId": "config/inline-suppression", "file": "src/Widget.svelte", "line": 3, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "src/cli.ts", "line": 3, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "src/cli.ts", "line": 6, "severity": "warning" }
+  ]
+}

@@ -1,0 +1,18 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+jobs:
+  browsers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - name: Experimental browsers
+        run: npx playwright test --project=webkit
+        continue-on-error: true
+  nightly-fuzz:
+    runs-on: ubuntu-latest
+    allow_failure: true
+    steps:
+      - run: npm run fuzz

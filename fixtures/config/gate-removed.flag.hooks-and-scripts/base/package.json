@@ -1,0 +1,8 @@
+{
+  "name": "shop",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "eslint .",
+    "test": "vitest run"
+  }
+}

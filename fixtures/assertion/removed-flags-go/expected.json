@@ -1,0 +1,4 @@
+{
+  "description": "a Go if-block ending in t.Fatalf is deleted",
+  "findings": [{ "ruleId": "assertion/removed", "file": "calc_test.go", "line": 9 }]
+}

@@ -1,0 +1,20 @@
+{
+  "description": "an existing test turned into it.todo, one stripped to a test with no body, and a Ginkgo It turned into PIt",
+  "findings": [
+    {
+      "ruleId": "skip/todo",
+      "file": "src/parse.test.ts",
+      "line": 4
+    },
+    {
+      "ruleId": "skip/todo",
+      "file": "src/parse.test.ts",
+      "line": 6
+    },
+    {
+      "ruleId": "skip/todo",
+      "file": "parse/parse_test.go",
+      "line": 9
+    }
+  ]
+}

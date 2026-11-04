@@ -1,0 +1,4 @@
+{
+  "description": "ignorePaths covers the protected directory, but an ignore glob never lifts a protection.",
+  "findings": [{ "ruleId": "protected/path", "file": "fixtures/golden/a.json" }]
+}

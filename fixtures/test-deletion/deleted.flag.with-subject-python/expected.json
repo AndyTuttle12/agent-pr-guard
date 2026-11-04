@@ -1,0 +1,4 @@
+{
+  "description": "A pytest module is deleted together with the module it tests, in another directory.",
+  "findings": [{ "ruleId": "test-deletion/deleted", "file": "tests/test_api.py", "severity": "warning" }]
+}

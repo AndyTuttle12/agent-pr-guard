@@ -1,0 +1,8 @@
+{
+  "description": "Suppressions moved onto other code: a @ts-ignore moved off the legacy call onto a new line, an eslint-disable-next-line carried into another file above a different declaration, and a c8 ignore next moved from a constant onto a new branch; each is a warning, the rule's default (D15).",
+  "findings": [
+    { "ruleId": "config/inline-suppression", "file": "src/cli.ts", "line": 6, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "src/parse.ts", "line": 5, "severity": "warning" },
+    { "ruleId": "config/inline-suppression", "file": "src/report.ts", "line": 5, "severity": "warning" }
+  ]
+}

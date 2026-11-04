@@ -1,0 +1,3 @@
+{
+  "rules": { "config/inline-suppression": "error" }
+}

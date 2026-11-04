@@ -1,0 +1,11 @@
+{
+  "description": "A new .stylelintignore appears; reported as a warning, since a new ignore file may only list build output.",
+  "findings": [
+    {
+      "ruleId": "config/ignore-grown",
+      "file": ".stylelintignore",
+      "line": 1,
+      "severity": "warning"
+    }
+  ]
+}

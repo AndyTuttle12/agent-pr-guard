@@ -1,0 +1,4 @@
+{
+  "description": "The PR adds a new golden file under protectedPaths and leaves the existing one alone: a warning, not an error (D18).",
+  "findings": [{ "ruleId": "protected/path", "file": "fixtures/golden/refund.json", "line": null, "severity": "warning" }]
+}

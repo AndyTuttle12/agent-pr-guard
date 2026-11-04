@@ -1,0 +1,25 @@
+{
+  "description": "ESLint rules downgraded and turned off, a new rule set to off, and the strict preset dropped from extends.",
+  "findings": [
+    {
+      "ruleId": "config/rule-disabled",
+      "file": ".eslintrc.json",
+      "line": 2
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": ".eslintrc.json",
+      "line": 4
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": ".eslintrc.json",
+      "line": 5
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": ".eslintrc.json",
+      "line": 6
+    }
+  ]
+}

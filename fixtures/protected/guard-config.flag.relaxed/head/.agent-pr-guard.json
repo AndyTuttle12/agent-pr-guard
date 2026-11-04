@@ -1,0 +1,1 @@
+{ "protectedPaths": [], "ignorePaths": ["tests/"], "rules": { "skip": "off" } }

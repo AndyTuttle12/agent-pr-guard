@@ -1,0 +1,30 @@
+{
+  "description": "pytest.mark.skip, xfail, a pytest.skip call, unittest.skip and self.skipTest added",
+  "findings": [
+    {
+      "ruleId": "skip/skipped",
+      "file": "tests/test_orders.py",
+      "line": 7
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "tests/test_orders.py",
+      "line": 12
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "tests/test_orders.py",
+      "line": 18
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "tests/test_orders.py",
+      "line": 23
+    },
+    {
+      "ruleId": "skip/skipped",
+      "file": "tests/test_orders.py",
+      "line": 28
+    }
+  ]
+}

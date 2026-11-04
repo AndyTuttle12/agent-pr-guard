@@ -1,0 +1,4 @@
+{
+  "description": "tests reordered, a commented-out note and a quoted expect( removed, and asserts dropped from a non-test file",
+  "findings": []
+}

@@ -1,0 +1,8 @@
+{
+  "description": "assertions removed with the code they tested (the subject deleted, or a function the subject dropped and nothing names any more) warn; assertions removed on code that still exists stay an error",
+  "findings": [
+    { "ruleId": "assertion/removed", "file": "src/auth.test.ts", "line": 6 },
+    { "ruleId": "assertion/removed", "file": "src/format.test.ts", "line": 6, "severity": "warning" },
+    { "ruleId": "assertion/removed", "file": "src/settings.test.ts", "line": 6, "severity": "warning" }
+  ]
+}

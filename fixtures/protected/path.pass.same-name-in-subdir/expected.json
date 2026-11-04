@@ -1,0 +1,4 @@
+{
+  "description": "Files named like protected ones but in subdirectories no forge or glob protects: src/CODEOWNERS, a package's .github/CODEOWNERS and test/fixtures/golden/ (the glob is anchored at the root).",
+  "findings": []
+}

@@ -1,0 +1,8 @@
+{
+  "description": "a Go tolerance constant, a testify InDelta and a math.Abs bound all widen",
+  "findings": [
+    { "ruleId": "assertion/tolerance-widened", "file": "geo_test.go", "line": 10 },
+    { "ruleId": "assertion/tolerance-widened", "file": "geo_test.go", "line": 20 },
+    { "ruleId": "assertion/tolerance-widened", "file": "geo_test.go", "line": 24 }
+  ]
+}

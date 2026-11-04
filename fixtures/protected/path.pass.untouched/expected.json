@@ -1,0 +1,4 @@
+{
+  "description": "A PR that changes source and docs only; the protected fixtures, CODEOWNERS and guard config are untouched.",
+  "findings": []
+}

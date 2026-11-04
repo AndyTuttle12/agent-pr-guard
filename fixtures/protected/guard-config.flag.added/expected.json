@@ -1,0 +1,4 @@
+{
+  "description": "A repo with no guard config: the PR adds one, which would govern every later PR.",
+  "findings": [{ "ruleId": "protected/guard-config", "file": ".agent-pr-guard.json", "severity": "error" }]
+}

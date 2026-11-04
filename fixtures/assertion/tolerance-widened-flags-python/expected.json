@@ -1,0 +1,9 @@
+{
+  "description": "pytest.approx rel, assert_allclose rtol and math.isclose abs_tol grow; assertAlmostEqual places drops",
+  "findings": [
+    { "ruleId": "assertion/tolerance-widened", "file": "tests/test_stats.py", "line": 11 },
+    { "ruleId": "assertion/tolerance-widened", "file": "tests/test_stats.py", "line": 15 },
+    { "ruleId": "assertion/tolerance-widened", "file": "tests/test_stats.py", "line": 19 },
+    { "ruleId": "assertion/tolerance-widened", "file": "tests/test_stats.py", "line": 24 }
+  ]
+}

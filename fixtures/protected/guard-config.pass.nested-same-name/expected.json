@@ -1,0 +1,4 @@
+{
+  "description": "A file with the guard config's name in a package directory, and a look-alike name in docs/: the loader reads neither, so neither is the guard config.",
+  "findings": []
+}

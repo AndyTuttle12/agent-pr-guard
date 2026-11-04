@@ -1,0 +1,7 @@
+{
+  "name": "shop",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run"
+  }
+}

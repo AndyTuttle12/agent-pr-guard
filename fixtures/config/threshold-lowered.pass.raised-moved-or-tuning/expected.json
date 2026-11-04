@@ -1,0 +1,4 @@
+{
+  "description": "Floors are raised, a lint limit is tightened, worker counts change, and a fail_under moves from setup.cfg to pyproject.toml at the same value.",
+  "findings": []
+}

@@ -1,0 +1,5 @@
+{
+  "description": "A test file is renamed with a .disabled suffix, so the runner no longer collects it.",
+  "renames": { "src/math.test.ts": "src/math.test.ts.disabled" },
+  "findings": [{ "ruleId": "test-deletion/moved-out", "file": "src/math.test.ts.disabled", "line": null }]
+}

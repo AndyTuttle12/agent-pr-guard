@@ -1,0 +1,6 @@
+{
+  "description": "The workflow that runs go vet and go test now only runs by hand: push and pull_request triggers are gone, so no PR is checked.",
+  "findings": [
+    { "ruleId": "config/gate-softened", "file": ".github/workflows/test.yml", "line": 2, "severity": "error" }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "A root scratch script named test_index.py (prints, no tests, no test framework import) is deleted: only its name matched, so it warns.",
+  "findings": [{ "ruleId": "test-deletion/deleted", "file": "test_index.py", "severity": "warning" }]
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Ruff gains an ignored code and a per-file ignore, and the B rules leave select; flake8 per-file-ignores in setup.cfg grows too.",
+  "findings": [
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "pyproject.toml",
+      "line": 2
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "pyproject.toml",
+      "line": 3
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "pyproject.toml",
+      "line": 6
+    },
+    {
+      "ruleId": "config/rule-disabled",
+      "file": "setup.cfg",
+      "line": 4
+    }
+  ]
+}

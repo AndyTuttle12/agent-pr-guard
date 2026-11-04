@@ -1,0 +1,4 @@
+{
+  "description": "A Go test file is deleted together with the file it tests.",
+  "findings": [{ "ruleId": "test-deletion/deleted", "file": "calc/calc_test.go", "severity": "warning" }]
+}

@@ -1,0 +1,7 @@
+{
+  "description": "A Go test file and a test matched only by the repo's own testPatterns are deleted.",
+  "findings": [
+    { "ruleId": "test-deletion/deleted", "file": "calc/calc_test.go" },
+    { "ruleId": "test-deletion/deleted", "file": "e2e/login.e2e.ts" }
+  ]
+}

@@ -1,0 +1,12 @@
+stages: [test]
+
+lint:
+  stage: test
+  script:
+    - make lint
+
+unit:
+  stage: test
+  script:
+    - pip install -e .[test]
+    - pytest -q

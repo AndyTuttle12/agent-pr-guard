@@ -1,0 +1,4 @@
+{
+  "description": "A flat config spreads its shared config into the list (sharedConfig becomes ...sharedConfig): the same item, so no rule is disabled.",
+  "findings": []
+}

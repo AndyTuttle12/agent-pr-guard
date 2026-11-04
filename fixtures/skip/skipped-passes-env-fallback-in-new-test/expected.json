@@ -1,0 +1,4 @@
+{
+  "description": "new tests in existing files that skip when the host lacks what they need: pytest.skip in an except block, pytest.importorskip, a skipif with a condition, a JS context.skip and a Go t.Skip inside an if",
+  "findings": []
+}

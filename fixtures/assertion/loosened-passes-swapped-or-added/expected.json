@@ -1,0 +1,4 @@
+{
+  "description": "exact checks swapped for other exact checks, a weak check tightened, and a weak check added next to an unchanged exact one",
+  "findings": []
+}

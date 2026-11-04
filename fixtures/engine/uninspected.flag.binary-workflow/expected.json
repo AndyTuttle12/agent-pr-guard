@@ -1,0 +1,7 @@
+{
+  "description": "A workflow and a tsconfig gain a NUL byte, so the reader treats them as binary and cannot check them.",
+  "findings": [
+    { "ruleId": "engine/uninspected", "file": ".github/workflows/ci.yml", "line": null },
+    { "ruleId": "engine/uninspected", "file": "tsconfig.json", "line": null }
+  ]
+}

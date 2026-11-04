@@ -1,0 +1,8 @@
+{
+  "description": "assert x == y becomes assert x, pytest.raises(OutOfStock) becomes raises(Exception), assertEqual becomes assertTrue",
+  "findings": [
+    { "ruleId": "assertion/loosened", "file": "tests/test_inventory.py", "line": 11 },
+    { "ruleId": "assertion/loosened", "file": "tests/test_inventory.py", "line": 16 },
+    { "ruleId": "assertion/loosened", "file": "tests/test_inventory.py", "line": 24 }
+  ]
+}

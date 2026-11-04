@@ -1,0 +1,20 @@
+{
+  "description": "max-len and complexity limits are raised and the --max-warnings 0 ceiling is dropped from the lint script.",
+  "findings": [
+    {
+      "ruleId": "config/threshold-lowered",
+      "file": ".eslintrc.json",
+      "line": 3
+    },
+    {
+      "ruleId": "config/threshold-lowered",
+      "file": ".eslintrc.json",
+      "line": 4
+    },
+    {
+      "ruleId": "config/threshold-lowered",
+      "file": "package.json",
+      "line": 3
+    }
+  ]
+}

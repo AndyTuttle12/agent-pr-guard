@@ -1,0 +1,4 @@
+{
+  "description": "Vitest replaced by node:test: the test script now runs `node --test` behind node flags, vitest leaves the dev dependencies, and its config is deleted with it. A runner migration, not a removed gate or a dropped config.",
+  "findings": []
+}

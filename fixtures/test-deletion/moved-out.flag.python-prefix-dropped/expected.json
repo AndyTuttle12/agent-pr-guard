@@ -1,0 +1,5 @@
+{
+  "description": "A pytest module loses its test_ prefix, so pytest no longer collects it.",
+  "renames": { "tests/test_api.py": "tests/api_checks.py" },
+  "findings": [{ "ruleId": "test-deletion/moved-out", "file": "tests/api_checks.py" }]
+}

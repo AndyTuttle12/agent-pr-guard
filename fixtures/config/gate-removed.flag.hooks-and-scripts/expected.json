@@ -1,0 +1,15 @@
+{
+  "description": "The package.json lint script and the mypy pre-commit hook are removed: one lint and one type-check command fewer.",
+  "findings": [
+    {
+      "ruleId": "config/gate-removed",
+      "file": ".pre-commit-config.yaml",
+      "line": 5
+    },
+    {
+      "ruleId": "config/gate-removed",
+      "file": "package.json",
+      "line": 5
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a //go:build integration line added, a constraint narrowed from linux || darwin to linux, and a test file renamed to an _linux suffix",
+  "findings": [
+    {
+      "ruleId": "skip/build-tag",
+      "file": "db/db_test.go",
+      "line": 1
+    },
+    {
+      "ruleId": "skip/build-tag",
+      "file": "fs/fs_test.go",
+      "line": 1
+    },
+    {
+      "ruleId": "skip/build-tag",
+      "file": "net/net_linux_test.go",
+      "line": null
+    }
+  ],
+  "renames": {
+    "net/net_test.go": "net/net_linux_test.go"
+  }
+}

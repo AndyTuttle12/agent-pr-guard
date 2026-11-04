@@ -1,0 +1,8 @@
+{
+  "description": "The unit-test step is allowed to fail, the lint job is switched off with if: false, and an integration script nobody recognises as a gate is allowed to fail too (a warning).",
+  "findings": [
+    { "ruleId": "config/gate-softened", "file": ".github/workflows/ci.yml", "line": 15, "severity": "error" },
+    { "ruleId": "config/gate-softened", "file": ".github/workflows/ci.yml", "line": 18, "severity": "warning" },
+    { "ruleId": "config/gate-softened", "file": ".github/workflows/ci.yml", "line": 20, "severity": "error" }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "description": "The ESLint config and the coverage config are deleted and nothing replaces them.",
+  "findings": [
+    {
+      "ruleId": "config/file-deleted",
+      "file": ".eslintrc.json",
+      "line": null
+    },
+    {
+      "ruleId": "config/file-deleted",
+      "file": ".coveragerc",
+      "line": null
+    }
+  ]
+}

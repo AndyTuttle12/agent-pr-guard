@@ -1,0 +1,10 @@
+{
+  "description": "The GitLab unit job and the Makefile unit target both go: two pytest runs fewer, reported once, where the first went.",
+  "findings": [
+    {
+      "ruleId": "config/gate-removed",
+      "file": ".gitlab-ci.yml",
+      "line": 6
+    }
+  ]
+}

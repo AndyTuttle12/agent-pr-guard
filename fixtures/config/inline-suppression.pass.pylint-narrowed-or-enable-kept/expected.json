@@ -1,0 +1,4 @@
+{
+  "description": "Honest edits: a pylint disable=all narrowed to one check, a bare type: ignore narrowed to a code, a mention of type: ignore inside a sentence (mypy needs the comment to end after it), an eslint-enable rewritten to re-enable everything, and an eslint-disable/enable pair removed together with the code that needed it.",
+  "findings": []
+}

@@ -1,0 +1,5 @@
+{
+  "description": "Moving the guard config away from where the loader reads it disables it as surely as deleting it.",
+  "renames": { ".agent-pr-guard.json": "config/agent-pr-guard.json.bak" },
+  "findings": [{ "ruleId": "protected/guard-config", "file": "config/agent-pr-guard.json.bak", "severity": "error" }]
+}
