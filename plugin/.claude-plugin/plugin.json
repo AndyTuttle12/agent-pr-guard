@@ -5,6 +5,11 @@
   "author": {
     "name": "Andy Tuttle"
   },
+  "homepage": "https://github.com/AndyTuttle12/agent-pr-guard",
+  "repository": "https://github.com/AndyTuttle12/agent-pr-guard",
   "license": "Apache-2.0",
-  "keywords": ["testing", "code-review", "guardrails", "agents"]
+  "keywords": ["testing", "code-review", "guardrails", "agents"],
+  "icon": "./.claude-plugin/icon.png",
+  "supportUrl": "https://github.com/AndyTuttle12/agent-pr-guard/issues",
+  "documentationUrl": "https://github.com/AndyTuttle12/agent-pr-guard/blob/main/plugin/README.md"
 }
